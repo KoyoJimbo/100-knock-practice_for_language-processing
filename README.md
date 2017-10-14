@@ -4,8 +4,8 @@
 </h1>
 <p>
 <h2>ENVIRONMENT</h2>
-<a>Ubntu 16.04 LTS </a>
-<a>Python 3.6.1 :: Anaconda 4.4.0 (64-bit)</a>
-<a>jupyter notebook 5.0.0</a>
+<p>Ubntu 16.04 LTS </p>
+<p>Python 3.6.1 :: Anaconda 4.4.0 (64-bit)</p>
+<p>jupyter notebook 5.0.0</p>
 </p>
 
