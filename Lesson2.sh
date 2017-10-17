@@ -2,18 +2,24 @@
 #command:zsh Lesson2.sh ihightemp.txt
 
 #Lesson2
-#10
- wc -l < $1
+echo "10"
+wc -l < $1
 
-#11
+
+echo "11"
 echo  | tr '\t' ' ' < $1
 
-val1="行数表示"
 
-echo val1
+echo "12"
+head -n 1 $1  > col1.txt
+head -n 2 $1 | tail -n 1  > col2.txt 
+
+
+echo "13"
+paste col1.txt col2.txt > merge.txt
 
 
  exit 0
-#水平タブ
-#\t
-#ZZ
+
+
+
